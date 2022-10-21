@@ -3,22 +3,22 @@ import Head from "../img/head.png";
 
 const Hero = () => {
   return (
-    <div className="flex">
-      <div className="flex-1 flex-col mt-28">
-        <h1 className="font-bold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867]">
+    <div className="flex flex-col items-center md:flex-row ">
+      <div className="md:flex-1 flex flex-col items-center md:items-start p-8 md:p-0 mt-10 md:mt-28">
+        <h1 className="font-bold text-transparent text-center md:text-left text-3xl md:text-7xl bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867]">
           Let’s Build Something amazing with GPT-3 OpenAI
         </h1>
 
-        <p className="text-[#81AFDD] mt-8 text-xl w-2/3 font-thin">
+        <p className="text-[#81AFDD] text-center md:text-left mt-8 text-xl w-2/3 font-thin">
           Yet bed any for travelling assistance indulgence unpleasing. Not
           thoughts all exercise blessing. Indulgence way everything joy
           alteration boisterous the attachment. Party we years to order allow
           asked of.
         </p>
 
-        <div className="flex mt-8 w-3/4 bg-yellow">
+        <div className="flex mt-8 md:w-3/4 ">
 
-         <input type="text" className="bg-[#052D56] placeholder-slate-500 pl-[14px]  flex-1" placeholder="Your Email Addess"/>
+         <input type="text" className="bg-[#052D56] placeholder-slate-500 pl-4 md:pl-[14px]  flex-1" placeholder="Your Email Addess"/>
          <button className="bg-[#FF4820] text-white px-6 py-4">Get Started</button>
         </div>
 
@@ -43,7 +43,7 @@ const Hero = () => {
 
       </div>
 
-      <div className="flex-1 items-center justify-center flex">
+      <div className="flex-1 w-1/2 md:w-full items-center justify-center flex">
         <img src={Head}  className="w-full" alt="head of ai" />
       </div>
 

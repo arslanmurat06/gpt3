@@ -2,7 +2,7 @@ import React from 'react'
 
 const Future = () => {
   return (
-    <div className='flex  mt-28 '>
+    <div className='hidden md:flex  mt-28 '>
 
         <div className='flex  w-2/3 flex-col gap-10'>
             <p className='font-bold text-transparent w-2/3 text-4xl bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867]'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</p>

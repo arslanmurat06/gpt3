@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='flex items-center justify-between w-full mt-20'>
+    <div className='flex items-center justify-around md:justify-between w-full mt-20'>
         <h1 className='text-white font-bold text-xl'>GPT3</h1>
-        <nav className='flex gap-8'>
+        <nav className='hidden md:flex gap-8'>
             <a href="#home" className='text-white'>Home</a>
             <a href="#home" className='text-white'>What is GPT?</a>
             <a href="#home" className='text-white'>Open AI</a>

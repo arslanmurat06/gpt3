@@ -10,9 +10,9 @@ const Blog = () => {
   return (
     <div className='mt-28'>
 
-        <p className='w-2/3 font-bold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867]'>A lot is happening, We are blogging about it.</p>
+        <p className=' w-full md:w-2/3 font-bold text-transparent   text-2xl text-center md:text-left md:text-7xl bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867]'>A lot is happening, We are blogging about it.</p>
 
-        <div className='grid grid-cols-3 grid-rows-2 gap-8 mt-24'>
+        <div className='grid grid-cols-1 m-8 md:mt-32 md:m-0 md:grid-cols-3 grid-rows-2 gap-8 mt-24'>
 
             <div className='row-span-2 hover:scale-105  '>
                 <div className='w-full'>
