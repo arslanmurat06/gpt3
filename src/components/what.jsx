@@ -29,7 +29,7 @@ const What = () => {
             </span>
        </div>
 
-       <div className='hidden md:flex mt-20'>
+       <div className='hidden md:flex mt-20 gap-8'>
 
             <div className='flex flex-col flex-1'>
                 <div className='w-10  h-1 bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500'></div>
@@ -39,13 +39,13 @@ const What = () => {
             <div className='flex flex-col flex-1'>
                 <div className='w-10  h-1 bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500'></div>
                 <span className='text-white font-bold mt-4'>Knowledgebase</span>
-                <p className='text-[#81AFDD] mt-10'>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b</p>
+                <p className='text-[#81AFDD] mt-10'>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments </p>
             </div>
 
             <div className='flex flex-col flex-1'>
                 <div className='w-10  h-1 bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500'></div>
                 <span className='text-white font-bold mt-4'>Education</span>
-                <p className='text-[#81AFDD] mt-10'>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b </p>
+                <p className='text-[#81AFDD] mt-10'>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments </p>
             </div>
 
        </div>
